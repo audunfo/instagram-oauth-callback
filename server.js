@@ -16,14 +16,11 @@ app.get('/oauth/callback', function(req, res){
 });
 
 app.get('/', function(req, res){
-	res.send('Simple API backend for instaSwipe');
+	res.send('Simple API backend for Instagram implicit oAuth');
 		
 });
 
 app.listen(app.get('port'), app.get('ip'));
-/*app.listen(app.get('port'), function() {
-  console.log('Express server listening on port %d in %s mode', app.get('port'), app.get('env'));
-});*/
 
 module.exports = app;
 
