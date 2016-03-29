@@ -1,11 +1,11 @@
 {
-  "name": "api",
+  "name": "instagram-oauth-callback",
   "version": "1.0.0",
-  "description": "Api for Instagram super swipe",
+  "description": "Simple api endpoint for Instagram implicit oAuth Authentication",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node server.js"
+    "start": "node server.js"
   },
   "author": "Audun Follegg (audunfo@gmail.com)",
   "license": "ISC",
